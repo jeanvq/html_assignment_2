@@ -272,7 +272,7 @@ footer {
 
 /* About Page Styles */
 .about-page-bg {
-  background-image: url('../assets/images/background1.png');
+  background-image: url('./assets/images/background1.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -402,10 +402,12 @@ footer {
 
 /* Our Story Page Styles */
 .ourstory-page-bg {
-  background-image: url('../assets/images/background2.png');
+  background-image: url('./assets/images/background2.png');
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repe
+
+;
   background-attachment: fixed;
   position: relative;
 }
@@ -577,9 +579,9 @@ footer {
 /* Contact Page Styles */
 .contact-hero {
   height: 400px;
-  background-image: url('../assets/images/background3.png');
+  background-image: url('./assets/images/background3.png');
   background-size: cover;
-  background-position: center 25%;
+  background-position: center 85%;
   background-repeat: no-repeat;
   position: relative;
   display: flex;
